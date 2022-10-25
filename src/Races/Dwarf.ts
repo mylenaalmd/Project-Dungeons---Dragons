@@ -1,6 +1,6 @@
 import Race from './Race';
 
-export default abstract class Dwarf extends Race {
+export default class Dwarf extends Race {
   readonly name: string;
   readonly dexterity: number;
   _maxLifePoints : number;

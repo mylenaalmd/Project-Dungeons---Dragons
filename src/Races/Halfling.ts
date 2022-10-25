@@ -1,6 +1,6 @@
 import Race from './Race';
 
-export default abstract class Halfling extends Race {
+export default class Halfling extends Race {
   readonly name: string;
   readonly dexterity: number;
   _maxLifePoints : number;

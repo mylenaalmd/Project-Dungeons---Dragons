@@ -1,6 +1,6 @@
 import Race from './Race';
 
-export default abstract class Orc extends Race {
+export default class Orc extends Race {
   readonly name: string;
   readonly dexterity: number;
   _maxLifePoints : number;
